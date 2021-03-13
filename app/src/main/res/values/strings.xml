@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Kktm_Navigation</string>
+
+    <string-array name="from_arrays">
+        <item>Select Starting Location</item>
+        <item>Post Guard</item>
+    </string-array>
+
+    <string-array name="destination_arrays">
+        <item>Select Destination</item>
+        <item>Admin</item>
+        <item>Dewan Sri Perdana (DSP)</item>
+        <item>Dewan Makan (DM)</item>
+        <item>Asrama</item>
+        <item>Bengkel Fabrikasi</item>
+        <item>Bengkel Angsi</item>
+        <item>Bengkel Armada</item>
+        <item>Bengkel Kikeh</item>
+        <item>Bengkel Tanjung</item>
+        <item>Production Plant For Education Training Systems (PPETS)</item>
+    </string-array>
+</resources>

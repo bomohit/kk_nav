@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "189853160611",
+    "project_id": "kktmnavigation",
+    "storage_bucket": "kktmnavigation.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:189853160611:android:ca2a2872f4340ee5f19b16",
+        "android_client_info": {
+          "package_name": "com.example.kktm_navigation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "189853160611-pfqhaajh65a48n8t9ajsgraq4tgssms1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA73vlKcn2QO7yRJjZ8-8a9RAMQJqKbQfQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "189853160611-pfqhaajh65a48n8t9ajsgraq4tgssms1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
