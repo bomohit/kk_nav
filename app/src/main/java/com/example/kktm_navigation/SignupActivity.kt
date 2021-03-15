@@ -1,11 +1,15 @@
 package com.example.kktm_navigation
 
+import android.content.Context
 import android.os.Bundle
 import android.util.Log.d
+import android.view.View
+import android.view.inputmethod.InputMethodManager
 import android.widget.Button
 import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import androidx.constraintlayout.widget.ConstraintLayout
 import com.google.android.material.snackbar.Snackbar
 import com.google.firebase.firestore.ktx.firestore
 import com.google.firebase.ktx.Firebase
@@ -20,6 +24,7 @@ class SignupActivity : AppCompatActivity() {
         val buttonRegister: Button = findViewById(R.id.buttonSignin)
         val username: TextView = findViewById(R.id.si_username)
         val password: TextView = findViewById(R.id.si_password)
+        val lay: ConstraintLayout = findViewById(R.id.layoutsignup)
         buttonRegister.setOnClickListener {
             val v = it
             if (!valid()) {
@@ -43,6 +48,10 @@ class SignupActivity : AppCompatActivity() {
                         }
             }
         }
+        lay.setOnClickListener {
+            closeKeyBoard(it)
+        }
+
     }
 
     private fun valid(): Boolean {
@@ -81,5 +90,10 @@ class SignupActivity : AppCompatActivity() {
 
         return valid
 
+    }
+
+    private fun closeKeyBoard(v : View) {
+        val imm = getSystemService(Context.INPUT_METHOD_SERVICE) as InputMethodManager
+        imm.hideSoftInputFromWindow(v.windowToken, 0)
     }
 }
