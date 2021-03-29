@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Kktm_Navigation</string>
+    <string name="app_name">R2D</string>
 
     <string-array name="from_arrays">
         <item>Select Starting Location</item>
